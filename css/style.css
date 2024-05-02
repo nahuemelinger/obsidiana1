@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body {
+    font-family: "Truculenta", cursive;
+    background-color: #FFCCD5;
+}
+
+header {
+    margin: 20px;
+    font-family: "Bad Script";
+    color: white;
+    text-align: center;
+}
+.menu li a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #C9184A;
+    color: #fff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 13px;
+}
+
+.menu li a{
+    color: #C9184A;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#sobreMi {
+    text-align: center;
+}
+
+#art {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #C9184A;
+}
+
+.subtitulos {
+    font-family: "Bad Script", cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #C9184A;
+}
+
+p {
+    font-family: "Truculenta", cursive;
+    font-size: 25px;
+}
+
+.servicios {
+    color: #C9184A;
+    font-family: "Edu NSW ACT Foundation";
+    text-align: center;
+    font-size: 30px;
+}
+
+#soc {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #C9184A;
+    display: block;
+    font-size: 40px;
+    font-family: "Edu NSW ACT Foundation";
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #C9184A;
+    font-family: Bad Script;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #ff4d6d;
+}
+
+.form {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #c9184a;
+    text-align: center;
+    background-color: #ff4d6d;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.producto p {
+    font-weight: bold;
+    color: #aa1f60;
+}
+.comprar-btn {
+    background-color: #C9184A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comprar-btn:hover {
+    background-color: #800F2F;
+}
+
+footer {
+    background-color: #590d22;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.redesSociales img {
+    margin-right: 40px;
+    width: 30px;
+    margin: 0 px;
+    float: left;
+}
+
+.telefono p {
+    color: white;
+    margin: 0;
+}
